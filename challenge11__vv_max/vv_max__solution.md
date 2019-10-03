@@ -113,6 +113,10 @@ Then I wrote [a script for IDA Pro](support_files/flareon2019_11_idapro-helper.p
 
 The script would use this to set a breakpoint on (3), and modify the bytes at (1) to brute force 2-3 bytes at a time, until (2) was correct.
 
+To accomplish this I then needed to patch the program to have it run in an infinite loop:
+
+![](images/idapro_patch03.png)
+
 This script worked very well. However, I learned the hard way that something really weird is going on with IDA Pro's scripting engine. I therefore got a workflow as:
 
 1. Modify the script
