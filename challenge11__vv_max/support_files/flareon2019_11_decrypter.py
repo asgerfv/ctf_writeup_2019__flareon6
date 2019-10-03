@@ -17,11 +17,6 @@ xorKey = [
 
 assert(len(xorKey) == 32)
 
-# Input starter med: c
-
-possibleChars1 = "abcdefghijklmnopqrstuvwxyz0123456789_ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-possibleChars2 = "abcdefghijklmnopqrstuvwxyz0123456789_"
-
 key = list("cHCyrAHSXmEKpyqoCByGGuhFyCmy86Ee")
 
 r = ''
