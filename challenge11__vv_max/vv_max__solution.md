@@ -115,11 +115,11 @@ The script would use this to set a breakpoint on (3), and modify the bytes at (1
 
 This script worked very well. However, I learned the hard way that something really weird is going on with IDA Pro's scripting engine. I therefore got a workflow as:
 
-A. Modify the script
-B. Alt + F7 to "Open Script", select my script
-C. Enter the script parameters and <ENTER>
-D. BREAK the script as IDA Pro is apparently using a strange hybrid of the old script along with new. But now quite as the results of what is read in memory is garbage. I didn't figure out why.
-E. Run the script again, which now seems to use the correct script and memory state.
+1. Modify the script
+2. Alt + F7 to "Open Script", select my script
+3. Enter the script parameters and <ENTER>
+4. BREAK the script as IDA Pro is apparently using a strange hybrid of the old script along with new. But now quite as the results of what is read in memory is garbage. I didn't figure out why.
+5. Run the script again, which now seems to use the correct script and memory state.
 
 
 ## Verification
